@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+html,
+body {
+  background-color: #9bb5cf;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+/* !NAV START ################# */
+
+nav {
+  border: 1px solid #1e1f26;
+}
+
+.navbar {
+  background-color: #283655;
+}
+
+.titleIcon {
+  max-width: 35px;
+}
+
+#title {
+  color: #d0e1f9;
+}
+
+.navbar-brand {
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+}
+
+.nav-link {
+  color: #d0e1f9;
+}
+
+.socialGroup {
+  position: absolute;
+  left: 85%;
+}
+
+.socials {
+  max-width: 20px;
+  margin: 0px 5px 0px 5px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.socials:hover {
+  opacity: 0.7;
+}
+/*! NAV END ############################# */
+
+/*! SPACING DIV */
+.headerBodySpace {
+  height: 80px;
+}
+
+.footerBodySpace {
+  height: 80px;
+}
+
+/*! MAIN CONTENT ######################## */
+
+.transition-1 {
+  transition-delay: 0.5s;
+  animation: transition-1 1s;
+}
+
+@keyframes transition-1 {
+  from {
+    opacity: 0;
+    transform: translateY(-1000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.emptyRow {
+  height: 17px;
+}
+
+.emptyRow2 {
+  height: 35px;
+}
+
+.indexGridTop {
+  height: 75px;
+  background-color: #283655;
+  box-shadow: 10px 10px 20px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 20px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+
+.topGridIcon {
+  height: 60px;
+}
+
+.indexGridMid {
+  height: 30px;
+  background-color: #283655;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  font-size: small;
+  box-shadow: 9px 1px 20px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 1px 20px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 1px 20px -3px rgba(0, 0, 0, 0.75);
+}
+
+.indexGridMid2 {
+  height: 150px;
+  background-color: #283655;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  font-size: small;
+  text-align: center;
+  box-shadow: -1px 11px 32px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 11px 32px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 11px 32px 3px rgba(0, 0, 0, 0.75);
+}
+
+.landingParagraph {
+  margin-top: 15px;
+}
+
+.indexGrid {
+  transition: 1s;
+  height: 110px;
+  background-color: #283655;
+  box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+}
+
+.indexGrid2 {
+  height: 30px;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  background-color: #283655;
+  box-shadow: 15px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 15px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 10px 54px 7px rgba(0, 0, 0, 0.75);
+}
+
+.contactGridForm {
+  height: 200px;
+  background-color: #283655;
+  box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+}
+
+.contactGridForm2 {
+  height: 208px;
+  background-color: #283655;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  font-size: small;
+  text-align: center;
+  background-color: #283655;
+  box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 54px 7px rgba(0, 0, 0, 0.75);
+}
+
+textarea {
+  resize: none;
+  height: 55px;
+}
+
+.message-control {
+  display: inline-block;
+}
+
+.submitBtn {
+  margin-top: 8px;
+  background-color: #283655;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  font-size: small;
+  display: inline-block;
+}
+
+.innerGridH5 {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+
+.gridIcons {
+  height: 80px;
+  width: auto;
+  margin-top: 15px;
+}
+
+.gridIcons:hover {
+  cursor: pointer;
+}
+
+.indexGrid:hover {
+  box-shadow: 11px 10px 54px 7px rgba(40, 54, 85, 0.75);
+  -webkit-box-shadow: 11px 10px 54px 7px rgba(40, 54, 85, 0.75);
+  -moz-box-shadow: 11px 10px 54px 7px rgba(40, 54, 85, 0.75);
+  transition: 1s;
+}
+
+.btn {
+  text-decoration: none;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+/* Adding transformation when the button is active */
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+/*! MAIN CONTENT END ######################## */
+
+/* ! FOOTER START ################### */
+
+/* .copyright {
+  font-size: 13px;
+  position: absolute;
+  right: 33%;
+  bottom: -1.3%;
+  background-color: #d0e1f9;
+} */
+footer {
+  margin-top: 1px;
+}
+
+p.navbar-brand.footerQuote {
+  margin: 0em 2em 0em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d0e1f9;
+  font-size: 13px;
+  /* position: absolute;
+  left: 31.8%;
+  bottom: -1.3%; */
+}
+
+a#title.navbar-brand.footer {
+  margin: 0;
+}
+
+/* ! FOOTER END ###################### */
+
+/* ! MEDIA QUERIES START ################ */
+.container-md {
+  border: 2px solid black;
+  height: 25rem;
+  width: 20%;
+}
+
+@media (min-width: 642px) and (max-width: 660px) {
+  .socialGroup {
+    max-width: 10px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .indexGridMid2 {
+    height: 190px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .indexGridMid2 {
+    height: 250px;
+  }
+  /* .landingParagraphMq {
+    display: none;
+  } */
+}
+
+@media (max-width: 575px) {
+  .indexGridMid {
+    offset: 0;
+    margin: 0;
+  }
+
+  .indexGridMid2 {
+    height: 200px;
+    width: auto;
+    offset: 0;
+    margin: 0px;
+    justify-content: center;
+  }
+
+  /* .landingParagraphMq {
+    display: none;
+  } */
+  /* .buttonTags {
+    display: none;
+  } */
+  .indexGrid {
+    offset: 1;
+    width: auto;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .indexGrid2 {
+    offset: 1;
+    width: auto;
+    margin: 0px;
+    justify-content: center;
+  }
+
+  .indexGridTop {
+    offset: 0;
+    margin: 0px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 574px) {
+  .indexGrid,
+  .indexGrid2 {
+    offset: 1;
+    width: 125px;
+    margin-left: 6%;
+    justify-content: center;
+  }
+}

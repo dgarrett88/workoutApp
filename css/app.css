@@ -1,0 +1,90 @@
+/* App Title --------------------------------- */
+
+.appIcon {
+  height: 45px;
+  width: 45px;
+}
+
+.titleApp {
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  font-size: x-large;
+}
+
+.appTitleBg {
+  background-color: #283655;
+}
+
+.iconApp {
+  height: 50px;
+  width: auto;
+}
+
+/* App Title Fin --------------------------------- */
+/* Dropdowns --------------------------------- */
+
+#bodypart {
+  background-color: #4d648d;
+  color: #d0e1f9;
+  font-family: "Russo One", sans-serif;
+  height: 35px;
+  width: 110px;
+  margin-right: 10px;
+}
+
+#equipment {
+  background-color: #4d648d;
+  color: #d0e1f9;
+  font-family: "Russo One", sans-serif;
+  height: 35px;
+  width: 110px;
+  margin-left: 10px;
+}
+
+/* Dropdowns Fin --------------------------------- */
+/* Result Buttons --------------------------------- */
+
+.resultDiv {
+  overflow: auto;
+  height: 320px;
+  background-color: #283655;
+}
+
+.card {
+  background-color: #283655;
+  max-width: 300px;
+}
+
+.dButtons {
+  background-color: #4d648d;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Result Buttons Fin --------------------------------- */
+/* Modal --------------------------------- */
+
+.modalBody {
+  background-color: #9bb5cf;
+}
+.modal-header {
+  background-color: #283655;
+  font-family: "Russo One", sans-serif;
+  color: #d0e1f9;
+}
+.close {
+  color: #9bb5cf;
+}
+.modal-footer {
+  background-color: #283655;
+}
+
+.appGifs {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+/* Modal Fin --------------------------------- */
